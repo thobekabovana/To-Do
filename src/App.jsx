@@ -1,4 +1,4 @@
-import { LogIn } from './components/logIn'
+import { Create } from './components/create'
 import './App.css'
 import React from 'react'
 
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <LogIn/>
+    <Create/>
     </>
   )
 }
