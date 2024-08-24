@@ -15,7 +15,7 @@ export function Create() {
             backgroundRepeat: "no-repeat",
         }}>
             <h1 style={{display: "flex",
-              color: "darkpink",
+              color: "#660033",
               alignItems: "center",
               justifyContent: "center",
               fontSize: "100px",
@@ -36,6 +36,8 @@ export function Create() {
 
             <input type="text" placeholder="Password" 
             style={{width: "40%", marginBottom: "15px",height: "5%" }}></input>
+
+            <button style={{backgroundColor: "purple"}}>Submit</button>
 
             </div>
 
